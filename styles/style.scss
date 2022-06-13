@@ -1,0 +1,166 @@
+
+*{
+    box-sizing: border-box ;
+}
+.container{
+  position: relative;
+ 
+}
+.container_img{
+    width: 100%;
+    height: 550px;
+}
+.container_playbtn{
+    position: absolute;
+   margin-top: 150px;
+   right: 600px;
+}
+h1{
+    font-family: "Pacifico";
+    font-size: 60px;
+    position: absolute;
+    margin-top: -300px;
+    right: 500px;
+    color: aliceblue;
+    line-height: 1.2 ;
+}
+.second_button{
+    position: relative;
+    display: flex; 
+    color: white;
+    background-color: #F0564B;
+    border-color: #F0564B;
+    padding: 18px;
+    font-family: "Inter";
+    margin-top: -110px;
+    left: 580px;
+    
+    
+}
+.container2{
+    background-color: #FFECE5;
+    text-align: center;
+    height: 400px;
+    
+}
+h2{
+    position: absolute;
+    font-family: "Pacifico";
+    margin-top: 110px ;
+    right: 500px;
+    font-size: 40px;
+    color: #2F5179;
+}
+p{
+    
+    position: absolute;
+    font-family: "Inter";
+    margin-top: 180px;
+    right: 300px;
+    line-height: 2;
+    
+}
+
+
+.boxleft{
+    background-color: #F0564B;
+   width: 50%;
+   float: left;
+   height: 350px;
+    
+
+}
+.boxright {
+    background-color: #2F5179;
+    width: 50%;
+    float: left;
+    height: 350px;
+}
+h3{
+    font-family: "Pacifico";
+    font-size: 40px;
+    color: #FFECE5;
+    text-align: center;
+
+}
+.box_desc2{
+    color: #FFECE5;
+    font-family: "Inter";
+    text-align: center;
+    margin-top: -40px;
+    right: 180px;
+}
+.box_desc1{
+    @extend .box_desc2;
+    left: -480px;
+}
+
+.box_button1{
+    position: relative;
+    display: flex; 
+    color: black;
+    background-color: white;
+    border-color: #F0564B;
+    padding: 16px;
+    font-family: "Inter";
+    margin-top: 150px;
+    right: -270px;
+    
+}
+.box_button2{
+    right: -270px;
+    border-color: #FFECE5;
+    @extend .box_button1
+    
+}
+
+.image_list{
+    float: left;
+}
+.image_list li  {
+    list-style: none;
+     display: inline-flex;
+     
+     
+     padding: 10px 20px;
+     
+    margin-top: 20px;
+    position: relative;
+    left: 140px;
+    size: 20px;
+   
+    
+
+ }
+ .container4_image{
+     height: 50px;
+     width: 80px;
+     margin: 20px 40px;
+     
+     
+      }
+#doctor{
+    height:350px ;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.container5_button{
+    left: 250px;
+    margin-top: 150px;
+}
+.container5_box2{
+    background-color: #FFECE5;
+}
+h4{
+    color: #2F5179 ;
+    font-family: "Pacifico";
+    font-size: 40px;
+    text-align: center;
+}
+.container5_desc{
+    color: black;
+
+}
+@import './header'
+
